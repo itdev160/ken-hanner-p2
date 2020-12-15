@@ -42,7 +42,6 @@ a {
     /*chat app*/
     #chat-app {
         min-width: 200px;
-        max-width: 500px;
         margin: 15px;
         padding: 10px;
         background-color: #2d445c;
@@ -159,7 +158,6 @@ a {
     /*faq app*/
     #post-container {
         min-width: 200px;
-        max-width: 500px;
         margin: 15px;
         padding: 10px;
         background-color: #2d445c;
@@ -168,6 +166,7 @@ a {
 
     #sidebar {
         background-color: #1d3855;
+        width: 200px;
     }
 
     #sidebar ul {
@@ -188,7 +187,7 @@ a {
 
     #chat-app h3 {
         color: rgb(194, 192, 192);
-        text-align: center;
+        text-align: left;
         margin: 5px;
     }
 
@@ -217,7 +216,7 @@ header {
 main {
     display: flex;
     flex-flow: row;
-    
+    justify-content: center;    
 }
     #column-one {
         order: 1;
@@ -233,6 +232,7 @@ main {
     #column-two {
         order: 2;
         display: flex;
+        flex-grow: 3;
         flex-direction: column;
     }
         #post-container {
